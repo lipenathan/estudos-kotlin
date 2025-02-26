@@ -101,7 +101,11 @@ fun main() {
 
     //region controle de fluxo
 
-    for (i in 10 downTo 1) {
+    for (i in 0..10) { //incremento
+        println(i)
+    }
+
+    for (i in 10 downTo 1) { //decremento
         println(i)
     }
 
